@@ -41,8 +41,8 @@ header {
     border: 3px solid #F6B018;
     background-color: #0E3D65;
     font-family: sans-serif;
-    height: 100px;
-    padding: 2em;
+    height: 120px;
+    padding: 0;
 }
 
 header * {
@@ -63,12 +63,13 @@ li {
 /* Classes */
 
 .header_logo {
-    width: 200px;
+    width: 80px;
     float: right;
     background-color: white;
-    box-shadow: -2px -2px 5px gray;
+    box-shadow: 2px 2px 5px gray;
     border-radius: 5px;
-    padding: 1em;
+    border: 1px solid white;
+    padding: 0;
 }
 
 .page {
@@ -77,6 +78,6 @@ li {
     background-color: #eeeeee;
     border: 3px solid #0E3D65;
     border-radius: 10px;
-    width: 60%;
+    width: 50%;
     float: left;
 }
