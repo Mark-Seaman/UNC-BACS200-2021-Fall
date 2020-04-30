@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="unc.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h1>Shrinking World Training</h1>
+                        <h2>UNC BACS 200 Lessons</h2>
+                    </div>
+                    <div class="logo col-sm-4">
+                        <div class="pull-right">
+                            <img class="img-rounded img-responsive" src="https://shrinking-world.com/static/images/unc/Bear.png"
+                                 alt="https://shrinking-world.com/static/images/unc/Bear.png" width="100px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            
+                
+                    <h1 id="lesson-19---spacing-borders">Lesson 19 - Spacing &amp; Borders</h1>
+<ul>
+<li>UNC - BACS 200</li>
+<li>Friday, Feb 28</li>
+<li>Mark Seaman</li>
+</ul>
+<hr />
+<h2 id="learn">LEARN</h2>
+<div class="figure">
+<img src="img/Bear_Logo.png" />
+
+</div>
+<p>Rule #19 - Create an HTML template and CSS template</p>
+<hr />
+<h3 id="css-rule-set">CSS Rule Set</h3>
+<ul>
+<li>Example Rule Set</li>
+</ul>
+<pre class="sourceCode css"><code class="sourceCode css">h1 <span class="kw">{</span>
+    <span class="kw">font-family:</span> <span class="dt">serif</span><span class="kw">;</span>
+    <span class="kw">font-size:</span> <span class="dt">120%</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre>
+<h3 id="css-rule-set-1">CSS Rule Set</h3>
+<ul>
+<li>CSS syntax</li>
+</ul>
+<pre class="sourceCode css"><code class="sourceCode css">selector <span class="kw">{</span>
+    <span class="kw">property:</span> value<span class="kw">;</span>   <span class="co">/* one rule */</span>
+    <span class="kw">property:</span> value<span class="kw">;</span>
+<span class="kw">}</span></code></pre>
+<h3 id="hooking-up-css">Hooking up CSS</h3>
+<ul>
+<li>Link the Stylesheet to each HTML page</li>
+</ul>
+<pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;head&gt;</span>
+    <span class="kw">&lt;link</span><span class="ot"> rel=</span><span class="st">&quot;stylesheet&quot;</span><span class="ot"> href=</span><span class="st">&quot;styles.css&quot;</span><span class="kw">&gt;</span>
+<span class="kw">&lt;/head&gt;</span></code></pre>
+<h3 id="text-properties">Text Properties</h3>
+<ul>
+<li>font-family</li>
+<li>font-size</li>
+<li>font-weight</li>
+<li>text-align</li>
+<li>text-shadow</li>
+</ul>
+<h3 id="color-properties">Color Properties</h3>
+<ul>
+<li>color</li>
+<li>background-color</li>
+</ul>
+<h3 id="color-values">Color Values</h3>
+<ul>
+<li>By Name</li>
+<li>By RGB</li>
+<li>By Hexidecimal</li>
+</ul>
+<pre class="sourceCode css"><code class="sourceCode css">h1 <span class="kw">{</span>
+    <span class="kw">color:</span> <span class="dt">rgb(20%</span>, <span class="dt">20%</span>, <span class="dt">20%)</span><span class="kw">;</span>  <span class="co">/* Red Green Blue */</span>
+    
+    <span class="kw">color:</span> <span class="dt">silver</span><span class="kw">;</span>              <span class="co">/* Named color */</span>
+    
+    <span class="kw">color:</span> <span class="dt">#0a0a0a</span><span class="kw">;</span>             <span class="co">/* Hex - Red Green Blue */</span>
+<span class="kw">}</span></code></pre>
+<h3 id="hexidecimal-values">Hexidecimal Values</h3>
+<pre><code>#01ffa5   -- Hex value
+
+R -- 01 (1)
+G -- ff (255)
+B -- a5 (165)</code></pre>
+<h3 id="hexidecimal-colors">Hexidecimal Colors</h3>
+<pre><code>#ffffff  -- white
+#000000  -- black
+#080808  -- gray
+
+#ff0000  -- red
+#00ff00  -- green
+#0000ff  -- blue</code></pre>
+<h3 id="spacing-properties">Spacing Properties</h3>
+<ul>
+<li>margin</li>
+<li>padding</li>
+<li>width</li>
+<li>height</li>
+</ul>
+<h3 id="size-of-elements">Size of Elements</h3>
+<ul>
+<li>width</li>
+<li>height</li>
+</ul>
+<pre class="sourceCode css"><code class="sourceCode css">h1 <span class="kw">{</span>
+    <span class="kw">width:</span> <span class="dt">500px</span><span class="kw">;</span>
+    <span class="kw">height:</span> <span class="dt">100px</span><span class="kw">;</span>
+    <span class="kw">border:</span> <span class="dt">solid</span> <span class="dt">1px</span> <span class="dt">gray</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre>
+<h3 id="box-model">Box Model</h3>
+<p>Margin is outside; Padding is inside</p>
+<pre class="sourceCode css"><code class="sourceCode css">body <span class="kw">{</span>
+    <span class="kw">padding:</span> <span class="dt">50px</span><span class="kw">;</span>
+    <span class="kw">margin:</span> <span class="dt">10px</span><span class="kw">;</span>
+    <span class="kw">border:</span> <span class="dt">solid</span> <span class="dt">1px</span> <span class="dt">gray</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre>
+<h3 id="example-rule-set">Example Rule Set</h3>
+<pre class="sourceCode css"><code class="sourceCode css">h1 <span class="kw">{</span>
+    <span class="kw">margin:</span> <span class="dt">100px</span><span class="kw">;</span>
+    <span class="kw">background-color:</span> <span class="dt">rgb(20%</span>, <span class="dt">20%</span>, <span class="dt">20%)</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+
+body <span class="kw">{</span>
+    <span class="kw">padding:</span> <span class="dt">200px</span><span class="kw">;</span>
+    <span class="kw">border:</span> <span class="dt">solid</span> <span class="dt">2px</span> <span class="dt">yellow</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre>
+<h3 id="borders-properties">Borders Properties</h3>
+<ul>
+<li>border</li>
+<li>border-radius</li>
+<li>box-shadow</li>
+</ul>
+<p>Examples</p>
+<pre class="sourceCode css"><code class="sourceCode css">h1 <span class="kw">{</span>
+    <span class="kw">border:</span> <span class="dt">solid</span> <span class="dt">1px</span> <span class="dt">gray</span><span class="kw">;</span>
+    <span class="kw">border-radius:</span> <span class="dt">20px</span><span class="kw">;</span>
+    <span class="kw">box-shadow:</span> <span class="dt">2px</span> <span class="dt">2px</span> <span class="dt">5px</span> <span class="dt">gray</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre>
+<hr />
+<h2 id="build">BUILD</h2>
+<div class="figure">
+<img src="img/Bear_Logo.png" />
+
+</div>
+<hr />
+<h3 id="spacing-borders">Spacing &amp; Borders</h3>
+<ul>
+<li><a href="https://unco-bacs.org/bacs200/07">Demo Code</a></li>
+<li>Study code so that you can reproduce these results</li>
+</ul>
+<h3 id="project-7---wanted-poster">Project 7 - Wanted Poster</h3>
+<ul>
+<li><a href="/unc/bacs200/project/07">Wanted Poster</a></li>
+</ul>
+
+                
+
+            
+        </main>
+
+
+        <footer>
+            <a href="https://shrinking-world.com">
+                <div class="logo-text">Copyright &copy; 2020 Shrinking World</div>
+                <img class="img-rounded img-responsive" src="https://shrinking-world.com/static/images/SWS_Globe_small.jpg"
+                     alt="Shrinking World Solutions" width="150px">
+            </a>
+        </footer>
+
+    </body>
+</html>

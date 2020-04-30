@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="unc.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h1>Shrinking World Training</h1>
+                        <h2>UNC BACS 200 Lessons</h2>
+                    </div>
+                    <div class="logo col-sm-4">
+                        <div class="pull-right">
+                            <img class="img-rounded img-responsive" src="https://shrinking-world.com/static/images/unc/Bear.png"
+                                 alt="https://shrinking-world.com/static/images/unc/Bear.png" width="100px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            
+                
+                    <h1 id="lesson-7---html-template">Lesson 7 - HTML Template</h1>
+<ul>
+<li>UNC - BACS 200</li>
+<li>Wednesday, Jan 29</li>
+<li>Mark Seaman</li>
+</ul>
+<hr />
+<h2 id="learn">LEARN</h2>
+<div class="figure">
+<img src="img/Bear_Logo.png" />
+
+</div>
+<p>Seaman's Rule #7: Solving problems involves learning and doing</p>
+<hr />
+<h3 id="review">Review</h3>
+<ul>
+<li>You setup web hosting at Bluehost</li>
+<li>You can use your Github repo</li>
+<li>You can view and copy web pages</li>
+</ul>
+<h3 id="tools">Tools</h3>
+<ul>
+<li>Brackets &amp; Firefox</li>
+<li>Github Desktop</li>
+<li>Filezilla</li>
+</ul>
+<h3 id="today">Today</h3>
+<ul>
+<li>Learn the Basics of HTML
+<ul>
+<li>HTML Page Template</li>
+<li>Visible Elements
+<ul>
+<li>h1, h2, h3</li>
+<li>p, img, a</li>
+<li>ul, li</li>
+</ul></li>
+</ul></li>
+<li>Copy code from webpages</li>
+</ul>
+<h3 id="web-servers-and-web-browsers">Web Servers and Web Browsers</h3>
+<ul>
+<li>Web clients make HTTP Requests</li>
+<li>Web server create HTTP Responses</li>
+</ul>
+<div class="figure">
+<img src="img/WebServer.png" />
+
+</div>
+<h3 id="building-web-pages">Building Web Pages</h3>
+<ul>
+<li>Edit files locally</li>
+<li>Test files locally</li>
+<li>Send files to server</li>
+<li>Test files remotely</li>
+</ul>
+<h3 id="html-template">HTML Template</h3>
+<ul>
+<li>HTML Doctype</li>
+<li>HTML root element</li>
+<li>HTML head &amp; body</li>
+<li>HTML body</li>
+<li>HTML Head</li>
+</ul>
+<h3 id="basic-html-elements">Basic HTML Elements</h3>
+<ul>
+<li>h1, h2, h3</li>
+<li>p</li>
+<li>a</li>
+<li>img</li>
+<li>ul, li</li>
+</ul>
+<h3 id="basic-html-elements-1">Basic HTML Elements</h3>
+<ul>
+<li>h1, h2, h3 - Headlines</li>
+<li>p - Paragraph breaks</li>
+<li>a - Anchor (hyperlinks)</li>
+<li>img - Image</li>
+<li>ul, li - Bullet List</li>
+</ul>
+<h3 id="html-template-1">HTML Template</h3>
+<ul>
+<li>Doc Type</li>
+<li>Head</li>
+<li>Body</li>
+</ul>
+<h3 id="html-doctype">HTML Doctype</h3>
+<ul>
+<li>Start with a document type tag that tells that this is an HTML file.</li>
+</ul>
+<pre><code>&lt;!DOCTYPE html&gt;</code></pre>
+<h3 id="html-root-element">HTML root element</h3>
+<ul>
+<li>The top level element in HTML is
+<html>
+. Add both the open and close.</li>
+</ul>
+<pre><code>&lt;html lang=&quot;en&quot;&gt;
+&lt;/html&gt;</code></pre>
+<h3 id="html-head-body">HTML head &amp; body</h3>
+<ul>
+<li>Add the head and body elements</li>
+<li>Add both the open and close tags for all elements</li>
+<li><strong>head</strong> holds invisible settings for the page</li>
+<li><strong>body</strong> holds the visible content for the page</li>
+</ul>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h3 id="html-body">HTML body</h3>
+<ul>
+<li>Add some content to the body.</li>
+<li>Add a headline <strong>h1</strong> and a paragraph with <strong>p</strong></li>
+</ul>
+<pre><code>&lt;h1&gt;Simple HTML Page&lt;/h1&gt;
+&lt;p&gt;This demo shows how to create a page that contains a single headline and two paragraphs of text.&lt;/p&gt;
+&lt;p&gt;HTML is not really that hard.  There are just a lot of details.&lt;/p&gt;</code></pre>
+<h3 id="html-head">HTML Head</h3>
+<p>Within the <strong>head</strong> we will define the invisible settings that the browser will read.</p>
+<p>These settings must be defined</p>
+<ul>
+<li>characters that are used within the page</li>
+<li>size of the display area</li>
+<li>title used for the browser tab label and bookmarks</li>
+</ul>
+<p>We will add more items later. For now we have</p>
+<pre><code>&lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+&lt;/head&gt;</code></pre>
+<h3 id="all-together-now">All together now!</h3>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+  &lt;head&gt;
+    &lt;meta charset=&quot;utf-8&quot;&gt;
+    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width&quot;&gt;
+    &lt;title&gt;BACS 200 - Simple Page&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Simple HTML Page&lt;/h1&gt;
+    &lt;p&gt;This demo shows how to create a page that contains a single headline and two paragraphs of text.&lt;/p&gt;
+    &lt;p&gt;HTML is not really that hard.  There are just a lot of details.&lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+<h3 id="page-template">Page Template</h3>
+<ul>
+<li>View a code sample</li>
+<li><a href="https://unco-bacs.org/bacs200/03/template.html">Sample Page Template</a></li>
+</ul>
+<h3 id="home-page-example">Home Page Example</h3>
+<ul>
+<li>View a code sample</li>
+<li><a href="https://unco-bacs.org/bacs200">Sample Page Template</a></li>
+<li>View source code and study it</li>
+</ul>
+<hr />
+<h2 id="build">BUILD</h2>
+<div class="figure">
+<img src="img/Bear_Logo.png" />
+
+</div>
+<hr />
+<h3 id="update-your-home-page">Update Your Home Page</h3>
+<ul>
+<li>Add photo</li>
+<li>List of links to project pages</li>
+<li>List to Sensei</li>
+<li>Link to Github repo</li>
+</ul>
+<h3 id="build-project-3-page">Build Project 3 Page</h3>
+<ul>
+<li>Create page &quot;bacs200/03/index.html&quot;</li>
+<li>Link to Home</li>
+<li>Link to &quot;bacs200/03/amuse.html&quot;</li>
+</ul>
+<h3 id="build-amuse-page">Build Amuse Page</h3>
+<ul>
+<li>Link to &quot;Project 3&quot;</li>
+<li>Three amusing topics
+<ul>
+<li>Description</li>
+<li>Link to internet</li>
+<li>Image</li>
+</ul></li>
+<li>Use HTML tags - h1, h2, ul, li, p, a, img</li>
+</ul>
+<h3 id="study-demo-code">Study demo code</h3>
+<ul>
+<li>Browse <a href="https://unco-bacs.org/bacs200/03">Demo Server - Week 3</a></li>
+<li>Create your own file at &quot;bacs200/03/index.html&quot;</li>
+</ul>
+
+                
+
+            
+        </main>
+
+
+        <footer>
+            <a href="https://shrinking-world.com">
+                <div class="logo-text">Copyright &copy; 2020 Shrinking World</div>
+                <img class="img-rounded img-responsive" src="https://shrinking-world.com/static/images/SWS_Globe_small.jpg"
+                     alt="Shrinking World Solutions" width="150px">
+            </a>
+        </footer>
+
+    </body>
+</html>

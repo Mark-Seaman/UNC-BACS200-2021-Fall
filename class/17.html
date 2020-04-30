@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="unc.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-8">
+                        <h1>Shrinking World Training</h1>
+                        <h2>UNC BACS 200 Lessons</h2>
+                    </div>
+                    <div class="logo col-sm-4">
+                        <div class="pull-right">
+                            <img class="img-rounded img-responsive" src="https://shrinking-world.com/static/images/unc/Bear.png"
+                                 alt="https://shrinking-world.com/static/images/unc/Bear.png" width="100px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            
+                
+                    <h1 id="lesson-17---using-stylesheets">Lesson 17 - Using Stylesheets</h1>
+<ul>
+<li>UNC - BACS 200</li>
+<li>Monday, Feb 24</li>
+<li>Mark Seaman</li>
+</ul>
+<hr />
+<h2 id="learn">LEARN</h2>
+<div class="figure">
+<img src="img/Bear_Logo.png" />
+
+</div>
+<p>Rule #17 - Always link to your CSS file</p>
+<hr />
+<h3 id="stylesheets">Stylesheets</h3>
+<ul>
+<li>Linking a CSS</li>
+<li>CSS Syntax</li>
+<li>Text Properties</li>
+</ul>
+<h3 id="css-rule-set">CSS Rule Set</h3>
+<ul>
+<li>Example Rule Set</li>
+<li>Use a specific font for h1 tags</li>
+</ul>
+<pre class="sourceCode css"><code class="sourceCode css">h1 <span class="kw">{</span>
+    <span class="kw">font-family:</span> <span class="dt">serif</span><span class="kw">;</span>
+    <span class="kw">font-size:</span> <span class="dt">120%</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre>
+<h3 id="css-rule-set-1">CSS Rule Set</h3>
+<ul>
+<li>CSS syntax</li>
+</ul>
+<pre class="sourceCode css"><code class="sourceCode css">selector <span class="kw">{</span>
+    <span class="kw">property:</span> value<span class="kw">;</span>   <span class="co">/* one rule */</span>
+    <span class="kw">property:</span> value<span class="kw">;</span>
+<span class="kw">}</span></code></pre>
+<h3 id="hooking-up-css">Hooking up CSS</h3>
+<ul>
+<li>Use external CSS</li>
+<li>Link the Stylesheet to each HTML page</li>
+</ul>
+<pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;head&gt;</span>
+    <span class="kw">&lt;link</span><span class="ot"> rel=</span><span class="st">&quot;stylesheet&quot;</span><span class="ot"> href=</span><span class="st">&quot;style.css&quot;</span><span class="kw">&gt;</span>
+<span class="kw">&lt;/head&gt;</span></code></pre>
+<h3 id="groups-of-css-properties">Groups of CSS Properties</h3>
+<ul>
+<li>Text</li>
+<li>Color</li>
+<li>Spacing</li>
+<li>Borders</li>
+</ul>
+<h3 id="using-css">Using CSS</h3>
+<ul>
+<li><a href="https://unco-bacs.org/bacs200/07">Demo Code</a></li>
+<li>Study code so that you can reproduce these results</li>
+</ul>
+<hr />
+<h2 id="build">BUILD</h2>
+<div class="figure">
+<img src="img/Bear_Logo.png" />
+
+</div>
+<hr />
+<h3 id="create-a-css-file">Create a CSS File</h3>
+<ul>
+<li>Build CSS file for Project 7</li>
+<li>bacs200/07/style.css</li>
+</ul>
+<pre class="sourceCode css"><code class="sourceCode css">h1 <span class="kw">{</span> 
+    <span class="kw">color:</span> <span class="dt">blue</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre>
+<h3 id="style-project-7-page">Style Project 7 Page</h3>
+<ul>
+<li>Link external CSS File (style.css)</li>
+<li>bacs200/07/index.html</li>
+</ul>
+<pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;head&gt;</span>
+    <span class="kw">&lt;link</span><span class="ot"> rel=</span><span class="st">&quot;stylesheet&quot;</span><span class="ot"> href=</span><span class="st">&quot;style.css&quot;</span><span class="kw">&gt;</span>
+<span class="kw">&lt;/head&gt;</span></code></pre>
+<h3 id="create-a-css-file-1">Create a CSS File</h3>
+<ul>
+<li>Build CSS file for Your Home Page</li>
+<li>bacs200/bacs.css</li>
+</ul>
+<pre class="sourceCode css"><code class="sourceCode css">h1 <span class="kw">{</span> 
+    <span class="kw">color:</span> <span class="dt">green</span><span class="kw">;</span> 
+    <span class="kw">background-color:</span> <span class="dt">gray</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+a <span class="kw">{</span> 
+    <span class="kw">color:</span> <span class="dt">red</span><span class="kw">;</span>
+<span class="kw">}</span>
+
+li <span class="kw">{</span>
+    <span class="kw">color:</span> <span class="dt">green</span><span class="kw">;</span>
+<span class="kw">}</span></code></pre>
+<h3 id="style-your-home-page">Style Your Home Page</h3>
+<ul>
+<li>Link external CSS File (bacs.css)</li>
+<li>bacs200/index.html</li>
+</ul>
+<pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;head&gt;</span>
+    <span class="kw">&lt;link</span><span class="ot"> rel=</span><span class="st">&quot;stylesheet&quot;</span><span class="ot"> href=</span><span class="st">&quot;bacs.css&quot;</span><span class="kw">&gt;</span>
+<span class="kw">&lt;/head&gt;</span></code></pre>
+<h3 id="explore-source-code">Explore Source Code</h3>
+<ul>
+<li>View source code in browser</li>
+<li>Follow links to embedded stylesheet</li>
+<li>Enable developer tools</li>
+</ul>
+<h3 id="validate-the-html">Validate the HTML</h3>
+<ul>
+<li><a href="https://validator.w3.org/">Validator</a></li>
+</ul>
+<h3 id="validate-the-css">Validate the CSS</h3>
+<ul>
+<li><a href="http://jigsaw.w3.org/css-validator/">Validator</a></li>
+</ul>
+
+                
+
+            
+        </main>
+
+
+        <footer>
+            <a href="https://shrinking-world.com">
+                <div class="logo-text">Copyright &copy; 2020 Shrinking World</div>
+                <img class="img-rounded img-responsive" src="https://shrinking-world.com/static/images/SWS_Globe_small.jpg"
+                     alt="Shrinking World Solutions" width="150px">
+            </a>
+        </footer>
+
+    </body>
+</html>
