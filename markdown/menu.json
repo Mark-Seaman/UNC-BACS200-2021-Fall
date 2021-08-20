@@ -1,0 +1,21 @@
+{
+    "url": "/course/bacs200",
+    "label": "BACS 200 Course",
+    "menu_items": [
+        {
+            "url": "/student/bacs200",
+            "label": "Scorecard",
+            "page": "course/bacs200"
+        },
+        {
+            "url": "/student/bacs200/test",
+            "label": "Projects",
+            "page": "course/bacs200"
+        },
+        {
+            "url": "/student/bacs200",
+            "label": "Profile",
+            "page": "course/bacs200"
+        }
+    ]
+}
