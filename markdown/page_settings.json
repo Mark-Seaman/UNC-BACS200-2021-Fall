@@ -10,7 +10,7 @@
     "logo": "/static/images/course/bacs200/Bear.png",
     "cover": "/static/images/course/bacs200/peaking.800.jpg",
     "icon": "https://shrinking-world.com/static/favicon.ico",
-    "images": "/static/images/course/bacs350/lesson",
+    "images": "/static/images/course/bacs200/lesson",
     "image_path": "/static/images/course/bacs200/peaking.800.jpg",
     "css": "/static/css/unc.css",
     "github": "https://github.com/Mark-Seaman/Mark-Seaman.github.io",
