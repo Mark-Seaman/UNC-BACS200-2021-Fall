@@ -1,0 +1,2 @@
+1,Check for Github Server,server,index.html,Home Page,Page must contain 'Home Page' text,"Failed to find 'Home Page' text"
+1,Check for Github Pages repo,github,blob/master/index.html,github.io,Github repo must have an index.html file,Failed to find index.html file
