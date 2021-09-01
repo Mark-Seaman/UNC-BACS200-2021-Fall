@@ -1,2 +1,4 @@
 1,Check for Github Server,server,index.html,Home Page,Page must contain 'Home Page' text,"Failed to find 'Home Page' text"
 1,Check for Github Pages repo,github,blob/master/index.html,github.io,Github repo must have an index.html file,Failed to find index.html file
+2,Check for BACS200 folder,server,bacs200/index.html,BACS 200 Class Content,Created a 'bacs200/index.html' page,Could not find title 'BACS 200 Class Content'
+2,Check for 'inspire.html' page,server,bacs200/inspire.html,Inspire Me,Created a 'inspire.html' page,Could not find title 'Inspire Me'
