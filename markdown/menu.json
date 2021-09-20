@@ -6,6 +6,11 @@
             "url": "/student/bacs200",
             "label": "Profile",
             "page": "course/bacs200"
+        },
+        {
+            "url": "/student/test",
+            "label": "Project Tests",
+            "page": "course/bacs200"
         }
     ]
 }
