@@ -4,4 +4,5 @@
 2,Check for 'inspire.html' page,server,bacs200/inspire.html,Inspire Me,Created a 'inspire.html' page,Could not find title 'Inspire Me'
 3,Check for 'amuse.html' page,server,bacs200/amuse.html,Amuse Me,Created a page 'amuse.html' with a title of "Amuse Me",Could not find title 'Amuse Me'
 4,Check for 'educate.html' page,server,bacs200/educate.html,Educate Me,Created a page 'educate.html' with a title of "Educate Me",Could not find title 'Educate Me'
-5,Check for 'superhero.html' page,server,bacs200/superhero.html,Superhero Gallery,Created a page 'superhero.html' with a title of "Superhero Gallery",Could not find title 'Superhero Gallery'
+5,Check for 'test.html' page,server,bacs200/test.html,Test,Created a page 'test.html' with a title of "Test Page",Could not find title 'Test Page'",Could not find title 'Test Page'
+6,Check for 'superhero.html' page,server,bacs200/superhero.html,Test,Created a page 'superhero.html' with a title of "Superhero Gallery",Could not find title 'Superhero Gallery'",Could not find title 'Superhero Gallery'
