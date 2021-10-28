@@ -10,7 +10,12 @@
         {
             "url": "/student/test",
             "label": "Project Tests",
-            "page": "course/bacs200"
+            "page": "student/test"
+        },
+        {
+            "url": "/course/bacs200/reviews",
+            "label": "Reviews",
+            "page": "course/bacs200/reviews"
         }
     ]
 }
