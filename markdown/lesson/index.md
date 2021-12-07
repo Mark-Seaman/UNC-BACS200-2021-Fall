@@ -43,6 +43,6 @@
 * [Lesson 41 - Development Plan](41.html)
 * [Lesson 42 - Teamwork](42.html)
 * [Lesson 43 - Your Career](43.html)
-* [sson 44 - Course Website](44.html)
-* [sson 45 - New Literacy](45.html)
+* [Lesson 44 - Course Website](44.html)
+* [Lesson 45 - New Literacy](45.html)
 * [BACS200 Lesson Index](index.html)
