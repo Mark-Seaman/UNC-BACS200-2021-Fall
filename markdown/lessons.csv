@@ -1,45 +1,46 @@
-1,2021-08-23,1,# Lesson 1 - Setup Zybooks & Sensei,Documents/course/bacs200/lesson/01.md
-2,2021-08-25,1,# Lesson 2 - Web Development,Documents/course/bacs200/lesson/02.md
-3,2021-08-27,1,# Lesson 3 - Github Pages,Documents/course/bacs200/lesson/03.md
-4,2021-08-30,2,# Lesson 4 - HTML Files & Pages,Documents/course/bacs200/lesson/04.md
-5,2021-09-01,2,# Lesson 5 - Using Version Control,Documents/course/bacs200/lesson/05.md
-6,2021-09-03,2,# Lesson 6 - Development Workflow,Documents/course/bacs200/lesson/06.md
-7,2021-09-08,3,# Lesson 7 - HTML Template,Documents/course/bacs200/lesson/07.md
-8,2021-09-10,3,# Lesson 8 - Links & Images,Documents/course/bacs200/lesson/08.md
-9,2021-09-13,4,# Lesson 9 - Blogging,Documents/course/bacs200/lesson/09.md
-10,2021-09-15,4,# Lesson 10 - Using Images,Documents/course/bacs200/lesson/10.md
-11,2021-09-17,4,# Lesson 11 - Lists & Tables,Documents/course/bacs200/lesson/11.md
-12,2021-09-20,5,# Lesson 12 - Testing,Documents/course/bacs200/lesson/12.md
-13,2021-09-22,5,# Lesson 13 - Creating Images,Documents/course/bacs200/lesson/13.md
-14,2021-09-24,5,# Lesson 14 - W3Schools website,Documents/course/bacs200/lesson/14.md
-15,2021-09-27,6,# Lesson 15 - Forming URLs,Documents/course/bacs200/lesson/15.md
-16,2021-09-29,6,# Lesson 16 - Software Maintenance,Documents/course/bacs200/lesson/16.md
-17,2021-10-01,6,# Lesson 17 - Using Stylesheets,Documents/course/bacs200/lesson/17.md
-18,2021-10-04,7,# Lesson 18 - Text & Color,Documents/course/bacs200/lesson/18.md
-19,2021-10-06,7,# Lesson 19 - Spacing & Borders,Documents/course/bacs200/lesson/19.md
-20,2021-10-08,7,# Lesson 20 - Page Layout,Documents/course/bacs200/lesson/20.md
-21,2021-10-11,8,# Lesson 21 - Bootstrap Typography,Documents/course/bacs200/lesson/21.md
-22,2021-10-13,8,# Lesson 22 - Bootstrap Components,Documents/course/bacs200/lesson/22.md
-23,2021-10-15,8,# Lesson 23 - Menus,Documents/course/bacs200/lesson/23.md
-24,2021-10-18,9,# Lesson 24 - Grid System,Documents/course/bacs200/lesson/24.md
-25,2021-10-20,9,# Lesson 25 - JavaScript Widgets,Documents/course/bacs200/lesson/25.md
-26,2021-10-22,9,# Lesson 26 - Page Templates,Documents/course/bacs200/lesson/26.md
-27,2021-10-25,10,# Lesson 27 - Project Portfolio,Documents/course/bacs200/lesson/27.md
-28,2021-10-27,10,# Lesson 28 - Design Reviews,Documents/course/bacs200/lesson/28.md
-29,2021-10-29,10,# Lesson 29 - Website Maintenance,Documents/course/bacs200/lesson/29.md
-30,2021-11-01,11,# Lesson 30 - Travel Brochure,Documents/course/bacs200/lesson/30.md
-31,2021-11-03,11,# Lesson 31 - Travel Brochure,Documents/course/bacs200/lesson/31.md
-32,2021-11-05,11,# Lesson 32 - Travel Brochure,Documents/course/bacs200/lesson/32.md
-33,2021-11-08,12,# Lesson 33 - Professional Video,Documents/course/bacs200/lesson/33.md
-34,2021-11-10,12,# Lesson 34 - Professional Video,Documents/course/bacs200/lesson/34.md
-35,2021-11-12,12,# Lesson 35 - Professional Video,Documents/course/bacs200/lesson/35.md
-36,2021-11-15,13,# Lesson 36 - Web Development Trends,Documents/course/bacs200/lesson/36.md
-37,2021-11-17,13,# Lesson 37 - Google Analytics,Documents/course/bacs200/lesson/37.md
-38,2021-11-19,13,# Lesson 38 - Remaining Course Work,Documents/course/bacs200/lesson/38.md
-39,2021-11-22,14,# Lesson 39 - Learning & Teaching,Documents/course/bacs200/lesson/39.md
-40,2021-11-29,14,# Lesson 40 - Reveal - Slide Show,Documents/course/bacs200/lesson/40.md
-41,2021-12-01,14,# Lesson 41 - Development Plan,Documents/course/bacs200/lesson/41.md
-42,2021-12-03,14,# Lesson 42 - Teamwork,Documents/course/bacs200/lesson/42.md
-43,2021-12-07,15,# Lesson 43 - Your Career,Documents/course/bacs200/lesson/43.md
-44,2021-12-07,15,# Lesson 44 - Course Website,Documents/course/bacs200/lesson/44.md
-45,2021-12-07,15,# Lesson 45 - New Literacy,Documents/course/bacs200/lesson/45.md
+1,2022-01-11,1,Lesson 1,Documents/course/bacs200/lesson/01.md
+2,2022-01-11,1,Lesson 2,Documents/course/bacs200/lesson/02.md
+3,2022-01-13,1,Lesson 3,Documents/course/bacs200/lesson/03.md
+4,2022-01-18,2,Lesson 4,Documents/course/bacs200/lesson/04.md
+5,2022-01-18,2,Lesson 5,Documents/course/bacs200/lesson/05.md
+6,2022-01-20,2,Lesson 6,Documents/course/bacs200/lesson/06.md
+7,2022-01-25,3,Lesson 7,Documents/course/bacs200/lesson/07.md
+8,2022-01-25,3,Lesson 8,Documents/course/bacs200/lesson/08.md
+9,2022-01-27,3,Lesson 9,Documents/course/bacs200/lesson/09.md
+10,2022-02-01,4,Lesson 10,Documents/course/bacs200/lesson/10.md
+11,2022-02-01,4,Lesson 11,Documents/course/bacs200/lesson/11.md
+12,2022-02-03,4,Lesson 12,Documents/course/bacs200/lesson/12.md
+13,2022-02-08,5,Lesson 13,Documents/course/bacs200/lesson/13.md
+14,2022-02-08,5,Lesson 14,Documents/course/bacs200/lesson/14.md
+15,2022-02-10,5,Lesson 15,Documents/course/bacs200/lesson/15.md
+16,2022-02-15,6,Lesson 16,Documents/course/bacs200/lesson/16.md
+17,2022-02-15,6,Lesson 17,Documents/course/bacs200/lesson/17.md
+18,2022-02-17,6,Lesson 18,Documents/course/bacs200/lesson/18.md
+19,2022-02-22,7,Lesson 19,Documents/course/bacs200/lesson/19.md
+20,2022-02-22,7,Lesson 20,Documents/course/bacs200/lesson/20.md
+21,2022-02-24,7,Lesson 21,Documents/course/bacs200/lesson/21.md
+22,2022-03-01,8,Lesson 22,Documents/course/bacs200/lesson/22.md
+23,2022-03-01,8,Lesson 23,Documents/course/bacs200/lesson/23.md
+24,2022-03-03,8,Lesson 24,Documents/course/bacs200/lesson/24.md
+25,2022-03-08,9,Lesson 25,Documents/course/bacs200/lesson/25.md
+26,2022-03-08,9,Lesson 26,Documents/course/bacs200/lesson/26.md
+27,2022-03-10,9,Lesson 27,Documents/course/bacs200/lesson/27.md
+28,2022-03-22,10,Lesson 28,Documents/course/bacs200/lesson/28.md
+29,2022-03-22,10,Lesson 29,Documents/course/bacs200/lesson/29.md
+30,2022-03-24,10,Lesson 30,Documents/course/bacs200/lesson/30.md
+31,2022-03-29,11,Lesson 31,Documents/course/bacs200/lesson/31.md
+32,2022-03-29,11,Lesson 32,Documents/course/bacs200/lesson/32.md
+33,2022-03-31,11,Lesson 33,Documents/course/bacs200/lesson/33.md
+34,2022-04-05,12,Lesson 34,Documents/course/bacs200/lesson/34.md
+35,2022-04-05,12,Lesson 35,Documents/course/bacs200/lesson/35.md
+36,2022-04-07,12,Lesson 36,Documents/course/bacs200/lesson/36.md
+37,2022-04-12,13,Lesson 37,Documents/course/bacs200/lesson/37.md
+38,2022-04-12,13,Lesson 38,Documents/course/bacs200/lesson/38.md
+39,2022-04-14,13,Lesson 39,Documents/course/bacs200/lesson/39.md
+40,2022-04-19,14,Lesson 40,Documents/course/bacs200/lesson/40.md
+41,2022-04-19,14,Lesson 41,Documents/course/bacs200/lesson/41.md
+42,2022-04-21,14,Lesson 42,Documents/course/bacs200/lesson/42.md
+43,2022-04-26,15,Lesson 43,Documents/course/bacs200/lesson/43.md
+44,2022-04-26,15,Lesson 44,Documents/course/bacs200/lesson/44.md
+45,2022-04-28,15,Lesson 45,Documents/course/bacs200/lesson/45.md
+99,2022-10-10,17,"Document not found, Documents/course/bacs200/lesson/99.md",Documents/course/bacs200/lesson/99.md
